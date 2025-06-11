@@ -29,6 +29,6 @@ class TestRunner:
         self.login.COD()
         self.login.PaymentMethod()
         self.login.ConfirmOrder()
-        time.sleep(10)
+        time.sleep(2)
 
 

@@ -34,7 +34,7 @@ class LoginPage:
 
     def Search(self):
         time.sleep(3)
-        item='earphones'
+        item='earphones noise wire'
         element=self.driver.find_element(*LoginPage.Locators.Search)
         element.send_keys(item)
         element.send_keys(Keys.RETURN)
